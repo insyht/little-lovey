@@ -1,2 +1,1 @@
-# little-lovey
-Little Lovey theme for Larvelous
+# Little Lovey Theme for Larvelous CMS

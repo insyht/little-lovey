@@ -1,0 +1,51 @@
+{
+  "name": "insyht/little-lovey",
+  "type": "library",
+  "description": "Little Lovey theme for the Larvelous CMS.",
+  "keywords": [
+    "cms",
+    "shop",
+    "webshop",
+    "ecommerce",
+    "larvelous"
+  ],
+  "authors": [
+    {
+      "name": "Jordy Thijs",
+      "email": "jordy@insyht.nl"
+    }
+  ],
+  "require": {
+    "php": "^8.2",
+    "illuminate/support": "*",
+    "insyht/larvelous": "master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Insyht\\LittleLovey\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Insyht\\LittleLovey\\Tests\\": "tests"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Insyht\\LittleLovey\\Providers\\LittleLoveyServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require-dev": {
+    "orchestra/testbench": "^8.0",
+    "phpunit/phpunit": "^10.3"
+  },
+  "config": {
+    "allow-plugins": {
+      "php-http/discovery": true
+    }
+  }
+}
