@@ -2,7 +2,7 @@
   "name": "Little Lovey",
   "path": "insyht/little-lovey/resources/views",
   "namespace": "\\Insyht\\LittleLovey",
-  "blade_prefix": "little-lovey",
+  "blade_prefix": "insyht-little-lovey",
   "image": "https://insyht.nl/larvelous-skeleton-theme.png",
   "author": "insyht",
   "extends": "insyht-larvelous"
